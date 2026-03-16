@@ -49,7 +49,7 @@
       "size": "100ml",
       "finish": "Matte + Spot Gloss",
       "description": "100ML Jar with Matte + Spot Gloss Finish, Side Label, Top Label, Application",
-      "costPerUnit": 0.0056 + 0.007952,
+      "costPerUnit": 0.013052,
       "regularPrice": 5.45,
       "tiers": [
         {
@@ -91,7 +91,7 @@
       "size": "100ml",
       "finish": "Matte + 2X Spot Gloss",
       "description": "100ML Jar with Matte + 2X Spot Gloss Finish",
-      "costPerUnit": 0.0056 + 0.01033,
+      "costPerUnit": 0.015830,
       "regularPrice": 5.60,
       "tiers": [
         {
@@ -220,7 +220,7 @@
       "sides": "Double Sided",
       "finish": "Matte",
       "description": "3.5 inch Sticker Bag, Double Sided, Matte Finish",
-      "costPerUnit": (0.11 * 2) + 0.41,
+      "costPerUnit": 0.63,
       "regularPrice": 1.60,
       "tiers": [
         {
@@ -263,7 +263,7 @@
       "sides": "Double Sided",
       "finish": "Spot Gloss",
       "description": "3.5 inch Sticker Bag, Double Sided, Spot Gloss Finish",
-      "costPerUnit": (0.16 * 2) + 0.41,
+      "costPerUnit": 0.73,
       "regularPrice": 1.95,
       "tiers": [
         {

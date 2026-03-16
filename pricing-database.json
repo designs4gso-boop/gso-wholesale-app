@@ -1,0 +1,325 @@
+{
+  "products": [
+    {
+      "id": "mirion-jar-100ml-matte",
+      "name": "Mirion Jar 100ML - Matte Finish",
+      "category": "jars",
+      "size": "100ml",
+      "finish": "Matte",
+      "description": "100ML Jar with Matte Finish, Side Label, Top Label, Application",
+      "costPerUnit": 0.0056,
+      "regularPrice": 5.10,
+      "tiers": [
+        {
+          "minQty": 1,
+          "maxQty": 250,
+          "price": 5.10,
+          "discount": 0
+        },
+        {
+          "minQty": 251,
+          "maxQty": 500,
+          "price": 4.70,
+          "discount": 7.8
+        },
+        {
+          "minQty": 501,
+          "maxQty": 1000,
+          "price": 4.55,
+          "discount": 10.8
+        },
+        {
+          "minQty": 1001,
+          "maxQty": 2000,
+          "price": 4.49,
+          "discount": 12
+        },
+        {
+          "minQty": 2001,
+          "maxQty": null,
+          "price": 4.49,
+          "discount": 12
+        }
+      ]
+    },
+    {
+      "id": "mirion-jar-100ml-spot-gloss",
+      "name": "Mirion Jar 100ML - Matte + Spot Gloss",
+      "category": "jars",
+      "size": "100ml",
+      "finish": "Matte + Spot Gloss",
+      "description": "100ML Jar with Matte + Spot Gloss Finish, Side Label, Top Label, Application",
+      "costPerUnit": 0.0056 + 0.007952,
+      "regularPrice": 5.45,
+      "tiers": [
+        {
+          "minQty": 1,
+          "maxQty": 250,
+          "price": 5.45,
+          "discount": 0
+        },
+        {
+          "minQty": 251,
+          "maxQty": 500,
+          "price": 5.00,
+          "discount": 8.3
+        },
+        {
+          "minQty": 501,
+          "maxQty": 1000,
+          "price": 4.82,
+          "discount": 11.6
+        },
+        {
+          "minQty": 1001,
+          "maxQty": 2000,
+          "price": 4.65,
+          "discount": 14.7
+        },
+        {
+          "minQty": 2001,
+          "maxQty": null,
+          "price": 4.65,
+          "discount": 14.7
+        }
+      ]
+    },
+    {
+      "id": "mirion-jar-100ml-2x-spot-gloss",
+      "name": "Mirion Jar 100ML - Matte + 2X Spot Gloss",
+      "category": "jars",
+      "size": "100ml",
+      "finish": "Matte + 2X Spot Gloss",
+      "description": "100ML Jar with Matte + 2X Spot Gloss Finish",
+      "costPerUnit": 0.0056 + 0.01033,
+      "regularPrice": 5.60,
+      "tiers": [
+        {
+          "minQty": 1,
+          "maxQty": 250,
+          "price": 5.60,
+          "discount": 0
+        },
+        {
+          "minQty": 251,
+          "maxQty": 500,
+          "price": 5.13,
+          "discount": 8.4
+        },
+        {
+          "minQty": 501,
+          "maxQty": 1000,
+          "price": 4.92,
+          "discount": 12.1
+        },
+        {
+          "minQty": 1001,
+          "maxQty": 2000,
+          "price": 4.82,
+          "discount": 13.9
+        },
+        {
+          "minQty": 2001,
+          "maxQty": null,
+          "price": 4.82,
+          "discount": 13.9
+        }
+      ]
+    },
+    {
+      "id": "sticker-bag-3.5-single-matte",
+      "name": "3.5\" Sticker Bag - Single Sided Matte",
+      "category": "sticker-bags",
+      "size": "3.5 inch",
+      "sides": "Single Sided",
+      "finish": "Matte",
+      "description": "3.5 inch Sticker Bag, Single Sided, Matte Finish",
+      "costPerUnit": 0.11 + 0.26,
+      "regularPrice": 1.00,
+      "tiers": [
+        {
+          "minQty": 1,
+          "maxQty": 256,
+          "price": 1.00,
+          "discount": 0
+        },
+        {
+          "minQty": 257,
+          "maxQty": 640,
+          "price": 0.90,
+          "discount": 10
+        },
+        {
+          "minQty": 641,
+          "maxQty": 1000,
+          "price": 0.85,
+          "discount": 15
+        },
+        {
+          "minQty": 1001,
+          "maxQty": 1500,
+          "price": 0.80,
+          "discount": 20
+        },
+        {
+          "minQty": 1501,
+          "maxQty": null,
+          "price": 0.78,
+          "discount": 22
+        }
+      ]
+    },
+    {
+      "id": "sticker-bag-3.5-single-spot-gloss",
+      "name": "3.5\" Sticker Bag - Single Sided Spot Gloss",
+      "category": "sticker-bags",
+      "size": "3.5 inch",
+      "sides": "Single Sided",
+      "finish": "Spot Gloss",
+      "description": "3.5 inch Sticker Bag, Single Sided, Spot Gloss Finish",
+      "costPerUnit": 0.16 + 0.26,
+      "regularPrice": 1.10,
+      "tiers": [
+        {
+          "minQty": 1,
+          "maxQty": 256,
+          "price": 1.10,
+          "discount": 0
+        },
+        {
+          "minQty": 257,
+          "maxQty": 640,
+          "price": 1.00,
+          "discount": 9.1
+        },
+        {
+          "minQty": 641,
+          "maxQty": 1000,
+          "price": 0.95,
+          "discount": 13.6
+        },
+        {
+          "minQty": 1001,
+          "maxQty": 1500,
+          "price": 0.90,
+          "discount": 18.2
+        },
+        {
+          "minQty": 1501,
+          "maxQty": null,
+          "price": 0.88,
+          "discount": 20
+        }
+      ]
+    },
+    {
+      "id": "sticker-bag-3.5-double-matte",
+      "name": "3.5\" Sticker Bag - Double Sided Matte",
+      "category": "sticker-bags",
+      "size": "3.5 inch",
+      "sides": "Double Sided",
+      "finish": "Matte",
+      "description": "3.5 inch Sticker Bag, Double Sided, Matte Finish",
+      "costPerUnit": (0.11 * 2) + 0.41,
+      "regularPrice": 1.60,
+      "tiers": [
+        {
+          "minQty": 1,
+          "maxQty": 256,
+          "price": 1.60,
+          "discount": 0
+        },
+        {
+          "minQty": 257,
+          "maxQty": 640,
+          "price": 1.45,
+          "discount": 9.4
+        },
+        {
+          "minQty": 641,
+          "maxQty": 1000,
+          "price": 1.38,
+          "discount": 13.8
+        },
+        {
+          "minQty": 1001,
+          "maxQty": 1500,
+          "price": 1.36,
+          "discount": 15
+        },
+        {
+          "minQty": 1501,
+          "maxQty": null,
+          "price": 1.34,
+          "discount": 16.3
+        }
+      ]
+    },
+    {
+      "id": "sticker-bag-3.5-double-spot-gloss",
+      "name": "3.5\" Sticker Bag - Double Sided Spot Gloss",
+      "category": "sticker-bags",
+      "size": "3.5 inch",
+      "sides": "Double Sided",
+      "finish": "Spot Gloss",
+      "description": "3.5 inch Sticker Bag, Double Sided, Spot Gloss Finish",
+      "costPerUnit": (0.16 * 2) + 0.41,
+      "regularPrice": 1.95,
+      "tiers": [
+        {
+          "minQty": 1,
+          "maxQty": 256,
+          "price": 1.95,
+          "discount": 0
+        },
+        {
+          "minQty": 257,
+          "maxQty": 640,
+          "price": 1.75,
+          "discount": 10.3
+        },
+        {
+          "minQty": 641,
+          "maxQty": 1000,
+          "price": 1.65,
+          "discount": 15.4
+        },
+        {
+          "minQty": 1001,
+          "maxQty": 1500,
+          "price": 1.58,
+          "discount": 19
+        },
+        {
+          "minQty": 1501,
+          "maxQty": null,
+          "price": 1.55,
+          "discount": 20.5
+        }
+      ]
+    }
+  ],
+  "customerTiers": [
+    {
+      "id": "retail",
+      "name": "Retail Customer",
+      "discount": 0,
+      "minOrder": 1
+    },
+    {
+      "id": "wholesale-basic",
+      "name": "Basic Wholesale",
+      "discount": 10,
+      "minOrder": 250,
+      "description": "Minimum order 250 units"
+    },
+    {
+      "id": "wholesale-premium",
+      "name": "Premium Wholesale",
+      "discount": 20,
+      "minOrder": 1000,
+      "description": "Minimum order 1000 units"
+    }
+  ],
+  "notes": "This database structure allows for easy product expansion. To add new products, follow the template above. Each product has quantity-based tiers for pricing."
+}

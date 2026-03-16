@@ -134,7 +134,7 @@
       "sides": "Single Sided",
       "finish": "Matte",
       "description": "3.5 inch Sticker Bag, Single Sided, Matte Finish",
-      "costPerUnit": 0.11 + 0.26,
+      "costPerUnit": 0.37,
       "regularPrice": 1.00,
       "tiers": [
         {
@@ -177,7 +177,7 @@
       "sides": "Single Sided",
       "finish": "Spot Gloss",
       "description": "3.5 inch Sticker Bag, Single Sided, Spot Gloss Finish",
-      "costPerUnit": 0.16 + 0.26,
+      "costPerUnit": 0.42,
       "regularPrice": 1.10,
       "tiers": [
         {

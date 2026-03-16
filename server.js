@@ -13,14 +13,9 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// Load pricing database
-let pricingData = {};
-try {
-  pricingData = JSON.parse(fs.readFileSync(path.join(__dirname, 'pricing-database.json'), 'utf8'));
-  console.log('✅ Pricing database loaded');
-} catch (err) {
-  console.error('❌ Error loading pricing database:', err.message);
-}
+// Load pricing database - EMBEDDED DATA
+let pricingData = require('./pricing-database.json');
+console.log('✅ Pricing database loaded');
 
 // ============================================================================
 // PRICING ENGINE

@@ -240,7 +240,7 @@ app.post('/api/cart/calculate', (req, res) => {
   // Calculate totals
   const cartTotal = cartItems.reduce((sum, item) => sum + item.totalPrice, 0);
   const cartRegularTotal = cartItems.reduce((sum, item) => sum + item.regularTotalPrice, 0);
-  const cartSavings = cartTotal.reduce((sum, item) => sum + item.savings, 0);
+  const cartSavings = cartItems.reduce((sum, item) => sum + item.savings, 0);
 
   res.json({
     success: true,

@@ -22,7 +22,9 @@ console.log('✅ Pricing database loaded');
 // ============================================================================
 
 function getPriceForQuantity(productId, quantity) {
-  const product = pricingData.products.find(p => p.id === productId);
+  // Normalize product ID to string for consistent matching
+  const normalizedId = String(productId);
+  const product = pricingData.products.find(p => String(p.id) === normalizedId);
   
   if (!product) {
     return {
@@ -89,7 +91,8 @@ app.get('/api/products', (req, res) => {
 // Get single product details
 app.get('/api/products/:productId', (req, res) => {
   const { productId } = req.params;
-  const product = pricingData.products.find(p => p.id === productId);
+  const normalizedId = String(productId);
+  const product = pricingData.products.find(p => String(p.id) === normalizedId);
 
   if (!product) {
     return res.status(404).json({
@@ -114,6 +117,7 @@ app.get('/api/products/:productId', (req, res) => {
 // Calculate price for a quantity (main pricing endpoint)
 app.post('/api/pricing/calculate', (req, res) => {
   const { productId, quantity } = req.body;
+  console.log(`💰 Calculate price: productId=${productId}, quantity=${quantity}`);
 
   if (!productId || !quantity) {
     return res.status(400).json({
@@ -140,14 +144,21 @@ app.post('/api/pricing/calculate', (req, res) => {
 // Get pricing tiers for a product
 app.get('/api/products/:productId/pricing', (req, res) => {
   const { productId } = req.params;
-  const product = pricingData.products.find(p => p.id === productId);
+  const normalizedId = String(productId);
+  console.log(`📊 Pricing request for product: ${productId} (normalized: ${normalizedId})`);
+  console.log(`📦 Available products: ${pricingData.products.map(p => p.id).join(', ')}`);
+  
+  const product = pricingData.products.find(p => String(p.id) === normalizedId);
 
   if (!product) {
+    console.log(`❌ Product ${normalizedId} not found`);
     return res.status(404).json({
       success: false,
       error: 'Product not found'
     });
   }
+  
+  console.log(`✅ Found product: ${product.name}`);
 
   // Generate pricing examples for each tier
   const pricingExamples = product.tiers.map(tier => {
